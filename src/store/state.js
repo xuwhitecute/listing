@@ -1,0 +1,24 @@
+export default {
+    detailData:{},
+    isloading:false,
+    acticlefooter:[
+        {name:"喜欢",icon:"icon-yduishoucangkongxin"},
+        {name:"评论",icon:"icon-pinglun"},
+    ],
+    /*控制评论的显示*/
+    popupVisible:false,
+    /*下滑框的texterea的内容*/
+    textareaValue:"",
+    /*文章的评论*/
+    comments:[],
+    /*其他人回复的评论*/
+    Respondcomments:[],
+    /*回复其他人的下拉框显示*/
+    OthersPopupVisible:false,
+    /*回复其他人的名字*/
+    OthersName:'',
+    /*回复其他人的值*/
+    OhtersTextareaValue:"",
+    /*显示弹出框*/
+    showPraise:false,
+}

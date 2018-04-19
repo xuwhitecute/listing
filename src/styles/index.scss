@@ -1,0 +1,25 @@
+@import "./commom/mobile.scss";
+@import "./commom/swiper-3.3.1.min.css";
+@import "./commom/mint-ui.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.main-warp{
+    padding:120px 0  150px;
+}
+button{
+    outline: none;
+}

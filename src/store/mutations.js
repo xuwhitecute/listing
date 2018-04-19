@@ -1,0 +1,35 @@
+export default {
+    updataDetial(state,value){
+        state.detailData=value.detailData;
+        state.comments=value.comments;
+        state.isloading=true;
+    },
+    /*控制评论下划框显示*/
+    updatePopupVisible(state,value){
+        state.popupVisible=value;
+    },
+    /*评论的值的双向绑定*/
+    updateTextareaValue(state,value){
+        state.textareaValue=value;
+    },
+    /*新增评论后的数据加载*/
+    insertComments(state,vlaue){
+        state.comments=vlaue;
+    },
+    /*回复其他人的下拉框显示*/
+    updateOthersPopupVisible(state,value){
+        state.OthersPopupVisible=value;
+    },
+    /*回复他人的名字*/
+    updateOthersName(state,value){
+        state.OthersName=value;
+    },
+    /*回复其他人的留言值*/
+    updateOhtersTextareaValue(state,value){
+        state.OhtersTextareaValue=value;
+    },
+    /*点赞的弹出框*/
+    updateshowPraise(state,value){
+        state.showPraise=value;
+    }
+}
